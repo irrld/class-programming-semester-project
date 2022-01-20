@@ -79,30 +79,37 @@ public:
 		}
 	}
 
+	// Hesaplanmış puanı değiştirir
 	void SetCalculatedPoints(int points) {
 		m_CalculatedPoints = points;
 	}
 
+	// Hesaplanmış puanı geri döndürür
 	int GetCalculatedPoints() {
 		return m_CalculatedPoints;
 	}
 
+	// Verilen numaralı sorunun cevabını döndürür
 	bool GetQuestionAnswer(int number) {
 		return m_QuestionAnswers[number];
 	}
 
+	// Kullanıcının ismini döndürür
 	std::wstring GetName() {
 		return m_Name;
 	}
 
+	// Kullanıcının soy ismini döndürür
 	std::wstring GetSurname() {
 		return m_Surname;
 	}
 
+	// Kullanıcının yaşını döndürür
 	int GetAge() {
 		return m_Age;
 	}
 
+	// Kullanıcının isim ve soyismini döndürür
 	std::wstring GetFullName() {
 		return m_Name + L" " + m_Surname;
 	}
