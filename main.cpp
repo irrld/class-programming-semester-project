@@ -271,5 +271,4 @@ int main()
 			goto read;
 		}
 	}
-
 }
