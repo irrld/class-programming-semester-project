@@ -123,7 +123,7 @@ struct Question {
 // a ve b eşlerini yaşa göre karşılaştırır
 bool CompareByAge(std::pair<std::wstring, User>& a, std::pair<std::wstring, User>& b)
 {
-	return a.second.GetAge() > b.second.GetAge();
+	return a.second.GetAge() < b.second.GetAge();
 }
 // a ve b eşlerini isime göre karşılaştırır
 bool CompareByName(std::pair<std::wstring, User>& a, std::pair<std::wstring, User>& b)
