@@ -1,0 +1,6 @@
+*.exe
+*- Copy.txt
+*.sln
+*.vcxproj*
+/x64
+/.vs
